@@ -1,0 +1,12 @@
+{
+  "name": "bun-overrides-probe",
+  "version": "0.1.0",
+  "description": "Mend SCA detection probe — exercises the overrides pattern. Forces qs@6.5.3 regardless of what express@4.21.2 would naturally resolve (6.13.0).",
+  "private": true,
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "overrides": {
+    "qs": "6.5.3"
+  }
+}
